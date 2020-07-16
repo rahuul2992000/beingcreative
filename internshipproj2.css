@@ -1,0 +1,52 @@
+
+
+
+body {
+ background-image: url('.jpg');
+ background-color: #000000;
+background-repeat: no-repeat;
+  background-size: cover; /* This is to resize the background image to cover the entire page */  
+  }
+
+header h1{
+	background-image:url('vintage.jpg');
+	padding:20px 0px 0px 20px;
+}
+
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #212F3C;
+}
+
+li {
+  float: left;
+border-right: 1px solid #000000; /*this gives a black border to each nav button */
+}
+
+li a {
+  display: block;
+  color: #F4D03F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to (black) on hover */
+li a:hover {
+  background-color: #F4D03F;
+}
+
+.container{
+width:100%;
+	margin:auto;
+	padding-top:4%;
+	padding-bottom: 4%;
+
+}
+
+
+
